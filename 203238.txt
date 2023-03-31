@@ -1,0 +1,15 @@
+1.Pravime lokalen repo i remote repo na github.
+2.mkdir SI_2023_lab1_203238
+3.cd SI_2023_lab1_203238
+4.Klonirame repo
+5.Pravime README.md datoteka(git add pa git commit)
+6.Dodavame SILab1.java fajl(git add pa git commit)
+7.Sinhronizirame se dosega
+8.Pravime 3 novi brancha(bug1,bug2,bug3) 
+9.Postepeno gi resavame greskite vo sekoj od novite branchovi
+10.Povtorno sinhronizirame sve
+11.Merge bug1,bug2
+12.Rebase od bug3 na master
+13.Merge i na posledniot bug3
+14.logs.txt i index.txt 
+15.Posleden commit i sinhroniziranje na sve dosega.

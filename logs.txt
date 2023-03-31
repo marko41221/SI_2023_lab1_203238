@@ -1,0 +1,454 @@
+
+C:\Users\38971>git remote add origin https://github.com/marko41221/SI_2023_lab1_203238.git
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38971>mkdir SI_2023_lab1_203238
+
+C:\Users\38971>cd SI_2023_lab1_203238
+
+C:\Users\38971\SI_2023_lab1_203238>git remote add origin https://github.com/marko41221/SI_2023_lab1_203238.git
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38971\SI_2023_lab1_203238>git clone https://github.com/marko41221/SI_2023_lab1_203238.git
+Cloning into 'SI_2023_lab1_203238'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\38971\SI_2023_lab1_203238>git branch -M master
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38971\SI_2023_lab1_203238>git branch -M master
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\38971\SI_2023_lab1_203238>git init
+Initialized empty Git repository in C:/Users/38971/SI_2023_lab1_203238/.git/
+
+C:\Users\38971\SI_2023_lab1_203238>git branch -M master
+
+C:\Users\38971\SI_2023_lab1_203238>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'origin'
+
+C:\Users\38971\SI_2023_lab1_203238>git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+C:\Users\38971\SI_2023_lab1_203238>git add README.md
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -m "Initial commit"
+[master (root-commit) 30c358d] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+C:\Users\38971\SI_2023_lab1_203238>git add SILab1.java
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -m "Add java class"
+[master 7966bb9] Add java class
+ 1 file changed, 41 insertions(+)
+ create mode 100644 SILab1.java
+
+C:\Users\38971\SI_2023_lab1_203238>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\38971\SI_2023_lab1_203238>git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\38971\SI_2023_lab1_203238>git push master master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\38971\SI_2023_lab1_203238>git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\38971\SI_2023_lab1_203238>git remote add origin https://github.com/marko41221/SI_2023_lab1_203238.git
+
+C:\Users\38971\SI_2023_lab1_203238>git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/marko41221/SI_2023_lab1_203238.git'
+
+C:\Users\38971\SI_2023_lab1_203238>git push origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 800 bytes | 800.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/marko41221/SI_2023_lab1_203238.git
+ * [new branch]      master -> master
+
+C:\Users\38971\SI_2023_lab1_203238>git pull origin master
+From https://github.com/marko41221/SI_2023_lab1_203238
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+C:\Users\38971\SI_2023_lab1_203238>git push  origin master
+Everything up-to-date
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout master
+Already on 'master'
+
+C:\Users\38971\SI_2023_lab1_203238>git branch bug 1
+fatal: not a valid object name: '1'
+
+C:\Users\38971\SI_2023_lab1_203238>git branch bug1
+
+C:\Users\38971\SI_2023_lab1_203238>git branch bug2
+
+C:\Users\38971\SI_2023_lab1_203238>git branch bug3
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout bug1
+Switched to branch 'bug1'
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -m "Fix wrong loop for reading"
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -am "Fix wrong loop for reading"
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\38971\SI_2023_lab1_203238>git add .
+error: 'SI_2023_lab1_203238/' does not have a commit checked out
+fatal: adding files failed
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -m "Fix wrong loop for reading"
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>git add .
+error: 'SI_2023_lab1_203238/' does not have a commit checked out
+fatal: adding files failed
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -am "Fix wrong loop for reading"
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>git status
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>git status
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>git add .
+error: 'SI_2023_lab1_203238/' does not have a commit checked out
+fatal: adding files failed
+
+C:\Users\38971\SI_2023_lab1_203238>git status
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -am "Fix wrong loop for reading"
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\38971\SI_2023_lab1_203238>git add SILab1.java
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -am "Fix wrong loop for reading"
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>git status
+On branch bug1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SI_2023_lab1_203238/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238>status
+'status' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38971\SI_2023_lab1_203238>cd SI_2023_lab1_203238
+
+C:\Users\38971\SI_2023_lab1_203238\SI_2023_lab1_203238>git add .
+
+C:\Users\38971\SI_2023_lab1_203238\SI_2023_lab1_203238>git commit -am "Fix wrong loop for reading"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238\SI_2023_lab1_203238>git commit -m "Fix wrong loop for reading"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\38971\SI_2023_lab1_203238\SI_2023_lab1_203238>git checkout bug2
+error: pathspec 'bug2' did not match any file(s) known to git
+
+C:\Users\38971\SI_2023_lab1_203238\SI_2023_lab1_203238>cd C:\Users\38971\SI_2023_lab1_203238
+
+C:\Users\38971\SI_2023_lab1_203238>status
+'status' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout bug2
+Switched to branch 'bug2'
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -am "Fix wrong condition in filterOddNumbers"
+[bug2 32a551d] Fix wrong condition in filterOddNumbers
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout bug1
+Switched to branch 'bug1'
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -am "Fix wrong loop for reading"
+[bug1 8b8ed2f] Fix wrong loop for reading
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout bug3
+Switched to branch 'bug3'
+
+C:\Users\38971\SI_2023_lab1_203238>git commit -am "Fix method sumEvenNumbers."
+[bug3 9ea9ad4] Fix method sumEvenNumbers.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\38971\SI_2023_lab1_203238>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> bug3
+
+
+C:\Users\38971\SI_2023_lab1_203238>status
+'status' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\38971\SI_2023_lab1_203238>git push -u master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\38971\SI_2023_lab1_203238>git push -u
+fatal: The current branch bug3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin bug3
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\38971\SI_2023_lab1_203238>git push -u origin
+fatal: The current branch bug3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin bug3
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\38971\SI_2023_lab1_203238>git push origin master
+Everything up-to-date
+
+C:\Users\38971\SI_2023_lab1_203238>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> bug3
+
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout master
+Switched to branch 'master'
+
+C:\Users\38971\SI_2023_lab1_203238>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+C:\Users\38971\SI_2023_lab1_203238>git push master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\38971\SI_2023_lab1_203238>git push origin master
+Everything up-to-date
+
+C:\Users\38971\SI_2023_lab1_203238>git pull origin master
+From https://github.com/marko41221/SI_2023_lab1_203238
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout origin
+error: pathspec 'origin' did not match any file(s) known to git
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout master
+Already on 'master'
+
+C:\Users\38971\SI_2023_lab1_203238>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+C:\Users\38971\SI_2023_lab1_203238>git push master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\38971\SI_2023_lab1_203238>git branch -u origin/master master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\38971\SI_2023_lab1_203238>git pull
+Already up to date.
+
+C:\Users\38971\SI_2023_lab1_203238>git merge bug1
+Updating 7966bb9..8b8ed2f
+Fast-forward
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\38971\SI_2023_lab1_203238>git fetch
+
+C:\Users\38971\SI_2023_lab1_203238>git merge origin/master
+Already up to date.
+
+C:\Users\38971\SI_2023_lab1_203238>git merge bug2
+Auto-merging SILab1.java
+Merge made by the 'ort' strategy.
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\38971\SI_2023_lab1_203238>git fetch
+
+C:\Users\38971\SI_2023_lab1_203238>git merge origin/master
+Already up to date.
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout bug3
+Switched to branch 'bug3'
+
+C:\Users\38971\SI_2023_lab1_203238>git rebase master
+Successfully rebased and updated refs/heads/bug3.
+
+C:\Users\38971\SI_2023_lab1_203238>git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+C:\Users\38971\SI_2023_lab1_203238>git merge bug3
+Updating 394b5c8..2aa02a4
+Fast-forward
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\38971\SI_2023_lab1_203238>git push --all --force
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 1.10 KiB | 1.10 MiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/marko41221/SI_2023_lab1_203238.git
+   7966bb9..2aa02a4  master -> master
+ * [new branch]      bug1 -> bug1
+ * [new branch]      bug2 -> bug2
+ * [new branch]      bug3 -> bug3
+
+C:\Users\38971\SI_2023_lab1_203238>
